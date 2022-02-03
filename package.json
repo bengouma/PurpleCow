@@ -1,0 +1,30 @@
+{
+  "name": "purplecow",
+  "version": "1.0.0",
+  "description": "Fearless PurpleCow",
+  "main": "index.js",
+  "dependencies": {
+    "countapi": "^1.0.0",
+    "countapi-js": "^1.0.2",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "pug": "^3.0.2",
+    "require": "^2.4.20",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengouma/PurpleCow.git"
+  },
+  "author": "Ben Goumalatsos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengouma/PurpleCow/issues"
+  },
+  "homepage": "https://github.com/bengouma/PurpleCow#readme"
+}
