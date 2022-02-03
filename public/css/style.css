@@ -5,8 +5,9 @@
     margin-bottom: 50px;
     display: block;
     text-align: center;
+    line-height: 22px;
     background-color: #92a8d1;
-    border: 10px black;
+    border: 2px solid black;
     border-radius: 5px;
     box-shadow: 3px 3px 2px black;
 }
