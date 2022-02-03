@@ -1,5 +1,4 @@
 const args = process.argv.slice(2);
-const counter = require('countapi-js');
 const express = require('express');
 const app = express();
 app.set('view engine', 'pug');
