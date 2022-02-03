@@ -1,0 +1,18 @@
+extends default
+
+block content 
+    div.container
+        p Welcome to Fearless. In today's world, we are facing many turbulant changes and challenges, such as the COVID-19 pandemic, ever growing social justice inequalities, and inactive government, deepening political divide, and so much more. We are dedicated to helping communities not only survive, but thrive through these difficult times, however, none of us can do it alone. To see how many people are interested in our cause, click the button below to see how many times people have come to the site in search of ways to support their community.
+        p(id="visits") 0 fellow community members.
+        script.
+            function cb() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "https://api.countapi.xyz/hit/fearless.tech/visits?key=1ccb732e-b55a-4404-ad3f-0f99c02fe44e");
+                xhr.responseType = "json";
+                xhr.onload = function() {
+                    document.getElementById('visits').innerText = this.response.value + " fellow community members.";
+                }
+                xhr.send();
+            }
+        button(onclick="cb()")
+            | Count Views
