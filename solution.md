@@ -10,3 +10,6 @@ To run the service using Docker, make sure youa re in the projects root director
 ### Modules used in this project
 * `express.js`: I decided to use express becasue I built my personal site with express, which just so happened to be my first node project I ever created, so express has a special place in my heart.
 * `pug`: I used pug because the syntax is much easier to navigate and handle compared to standard HTML. I also like the indentation syntax, which is similar to Python, the language I am most ocmfortable using.
+
+### Improvements to be made
+To improve the UI/UX of this app, I would rewrite the UI using a framework like VUE or React. Frontend developemtn is my weakpoint, I am very storng on backend development and concepts, so I would take the time to learn, practice, and hone my newly acquired frontend skills. I would also add a feature to let a user connect to other users who interact with the site, with prior consent of individual users. This would let new users connect to others who hold the same values and help build social circles.
